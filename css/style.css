@@ -57,5 +57,52 @@ li {
     margin: auto;
     background-color: #ee81ee;
     display: flex;
-    vertical-align: middle;
+    align-items: center;
+}
+
+/* Main */
+.main-container {
+    height: 400px;
+}
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    height: 360px;
+    padding: 20px 0;
+}
+
+article {
+    width: calc( (100% / 3) * 2);
+    background-color: #1d90ff;
+    height: 360px;
+    align-items: center;
+    display: flex;
+}
+
+aside {
+    width: calc(100% / 3);
+    background-color: #fec1cb;
+    height: 360px;
+    align-items: center;
+    display: flex;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.bigcontainer {
+    height: 800px;
+    display: flex;
+}
+
+.greensquare {
+    width: 70%;
+    height: 720px;
+    margin: auto;
+    background-color: green;
+    display: flex;
+    align-items: center;
 }
