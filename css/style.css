@@ -45,3 +45,17 @@ li {
 .right {
     text-align: right;
 }
+
+.bluesquare {
+    height: 400px;
+    background-color: #00008b;
+    display: flex;
+}
+.pinksquare {
+    width: 60%;
+    height: 360px;
+    margin: auto;
+    background-color: #ee81ee;
+    display: flex;
+    vertical-align: middle;
+}
